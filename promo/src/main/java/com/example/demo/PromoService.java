@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-public class PromoService {
+public class PromoService implements PromoServiceInterface {
 
 	@Autowired
 	PromoRepository promoRepository;
